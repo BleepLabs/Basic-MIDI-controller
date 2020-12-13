@@ -22,7 +22,7 @@ Also in the tools menu select USB Type>Serial + MIDI
   
 Connect the Teensy to your comuter and upload the code by click the arrow icon in the top left corner of the Arduino window.  
 Once upladed the LED on the Teensy should blink whenever you adjust one of the controls.  
-To see the MIDI data coming into your computer use [MIDI Monitor](https://www.snoize.com/MIDIMonitor/) on OSX or [MIDI OX](http://www.midiox.com/) on PC  
+If you want to see the MIDI data coming into your computer use [MIDI Monitor](https://www.snoize.com/MIDIMonitor/) on OSX or [MIDI OX](http://www.midiox.com/) on PC.   
   
 ## Step 4 
 Editing the code  
