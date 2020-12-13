@@ -18,7 +18,7 @@ Code
 Download [this file](https://raw.githubusercontent.com/BleepLabs/Basic-MIDI-controller/main/Basic_USB_MIDI_controller/Basic_USB_MIDI_controller.ino) and open it with Arduino. It will ask you about moving it to a folder, just say ok.   
   
 In Arduino go to the tools menu and select Board>Teensy LC
-Also in the tools menu select USB Type>Serail + MIDI  
+Also in the tools menu select USB Type>Serial + MIDI  
   
 Connect the Teensy to your comuter and upload the code by click the arrow icon in the top left corner of the Arduino window.  
 Once upladed the LED on the Teensy should blink whenever you adjust one of the controls.  
