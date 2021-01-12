@@ -1,12 +1,15 @@
 #include <Bounce2.h>  // Bounce library makes button change detection easy
 #define BOUNCE_LOCK_OUT //this tells it what mode to be in. I think it's the better one for music
+
 #define button1_pin 3
 #define pot1_pin A0
 #define pot2_pin A1
 
-#define button1_note 60 //midi note to piano notes https://docs.google.com/spreadsheets/d/1t9yLnGfvo_sVzb5nU9dRVeX2SL9OWO1yOi0GPU40YDM/edit?usp=sharing
+//midi notes to piano notes https://docs.google.com/spreadsheets/d/1t9yLnGfvo_sVzb5nU9dRVeX2SL9OWO1yOi0GPU40YDM/edit?usp=sharing
+#define button1_note 60
 #define pot1_cc 20
 #define pot2_cc 21
+
 
 int channel = 1; // MIDI channel to use while sending
 
