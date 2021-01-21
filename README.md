@@ -9,7 +9,7 @@ Put the Teensy, wires, button, and pots in the breadbaord as shown.
 ![](https://raw.githubusercontent.com/BleepLabs/Basic-MIDI-controller/main/images/MIDI-breadboard-setup.png)  
   
 The pins on the top side of the Teensy taht star with A are analog input meaning the can read voltages between 0 to 3.3V and return a value. Other pins can just read if something is high (3.3V) or low (0V aka ground).  
-Here the pots have one side connected to ground and the other to 3.3V with the middle going to Teensy. Just like the volume controls we've discussed before, the pot is mixing bewteen nothing and something. If you were to read the voltage of the middle pin with the pot was at 12 oclokc you'd see 3.3V/2 = 1.65V. The analog pin can read this voltage and turn it into a number we can use.   
+Here the pots have one side connected to ground and the other to 3.3V with the middle going to Teensy. Just like the volume controls we've discussed before, the pot is mixing bewteen nothing and something. If you were to read the voltage of the middle pin with the pot was at 12 o'clock you'd see 3.3V/2 = 1.65V. The analog pin can read this voltage and turn it into a number we can use.   
 
 The button is attached to a digital pin witch can read whe it's being pressed or not.  
 
